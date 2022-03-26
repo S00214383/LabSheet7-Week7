@@ -1,0 +1,131 @@
+﻿<Window x:Class="LabSheet7_Week7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabSheet7_Week7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <TabControl>
+        <!-- Exercise 1-->
+        <TabItem Header="Q1" Width="75">
+        <Grid>
+            <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="80*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Content="Get Data" Width="100" Height="30" Name="Q1Bttn" Click="Q1Bttn_Click"/>
+                <ListBox Grid.Row="1" Name="Q1LbxDisplay" Margin="10"/>
+                <DataGrid Grid.Row="1" Name="Ex1DgDetails"></DataGrid>
+            </Grid>
+    </TabItem>
+
+        <!-- Exercise 2-->
+        <TabItem Header="Q2" Width="75">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="80*"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="Get Data" Width="100" Height="30" Name="Q2Bttn" Click="Q2Bttn_Click"/>
+                <ListBox Grid.Row="1" Name="Q2LbxDisplay" Margin="10"/>
+                <DataGrid Grid.Row="1" Name="Ex2DgDetails"></DataGrid>
+            </Grid>
+        </TabItem>
+
+        <!-- Exercise 3-->
+        <TabItem Header="Q3" Width="75">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="80*"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="Get Data" Width="100" Height="30" Name="Q3Bttn" Click="Q3Bttn_Click"/>
+                <ListBox Grid.Row="1" Name="Q3LbxDisplay" Margin="10"/>
+                <DataGrid Grid.Row="1" Name="Ex3DgDetails"></DataGrid>
+            </Grid>
+        </TabItem>
+
+        <!-- Exercise 4-->
+        <TabItem Header="Q4" Width="75">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="80*"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="Get Data" Width="100" Height="30" Name="Q4Bttn" Click="Q4Bttn_Click"/>
+                <ListBox Grid.Row="1" Name="Q4LbxDisplay" Margin="10"/>
+                <DataGrid Grid.Row="1" Name="Ex4DgDetails"></DataGrid>
+            </Grid>
+        </TabItem>
+
+        <!-- Exercise 5-->
+        <TabItem Header="Q5" Width="75">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="80*"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="Get Data" Width="100" Height="30" Name="Q5Bttn" Click="Q5Bttn_Click"/>
+                <ListBox Grid.Row="1" Name="Q5LbxDisplay" Margin="10"/>
+                <TextBlock Grid.Row="1" Name="Ex5DgDetails"></TextBlock>
+            </Grid>
+        </TabItem>
+
+
+        <!-- Exercise 6-->
+        <TabItem Header="Q6" Width="75">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="80*"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="Get Data" Width="100" Height="30" Name="Q6Bttn" Click="Q6Bttn_Click"/>
+                <ListBox Grid.Row="1" Name="Q6LbxDisplay" Margin="10"/>
+                <DataGrid Grid.Row="1" Name="Ex6DgDetails"></DataGrid>
+            </Grid>
+        </TabItem>
+
+        <!-- Exercise 7-->
+        <TabItem Header="Q7" Width="75">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="80*"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="Get Data" Width="100" Height="30" Name="Q7Bttn" Click="Q7Bttn_Click"/>
+                <ListBox Grid.Row="1" Name="Q7LbxDisplay" Margin="10"/>
+                <DataGrid Grid.Row="1" Name="Ex7DgDetails"></DataGrid>
+            </Grid>
+        </TabItem>
+
+        <!-- Exercise 8-->
+        <TabItem Header="Q8" Width="75">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="80*"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="Get Data" Width="100" Height="30" Name="Q8Bttn" Click="Q8Bttn_Click"/>
+                <ListBox Grid.Row="1" Name="Q8LbxDisplay" Margin="10"/>
+                <DataGrid Grid.Row="1" Name="Ex8DgDetails"></DataGrid>
+            </Grid>
+        </TabItem>
+
+        <!-- Exercise 9-->
+        <TabItem Header="Q9" Width="75">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="80*"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="Get Data" Width="100" Height="30" Name="Q9Bttn" Click="Q9Bttn_Click"/>
+                <ListBox Grid.Row="1" Name="Q9LbxDisplay" Margin="10"/>
+                <DataGrid Grid.Row="1" Name="Ex9DgDetails"></DataGrid>
+            </Grid>
+        </TabItem>
+
+    </TabControl>
+    
+    
+</Window>
